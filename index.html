@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leo Celik — IT Support Technician in Training</title>
+<meta name="description" content="Leo Celik — Computer Service Technician student at Earle C. Clements Job Corps Center. CompTIA A+ in progress. AI-assisted work, taken seriously.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fbfbf9;
+    --ink: #161616;
+    --mid: #6d6d68;
+    --line: #e3e3de;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #141414;
+      --ink: #eaeae6;
+      --mid: #8f8f89;
+      --line: #2a2a28;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 5.5rem 1.4rem 4rem;
+    animation: rise 0.5s ease-out both;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    main { animation: none; }
+  }
+
+  .kicker {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--mid);
+    margin-bottom: 0.9rem;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+    margin-bottom: 0.35rem;
+  }
+  .goby {
+    color: var(--mid);
+    font-size: 1rem;
+    margin-bottom: 2.6rem;
+  }
+  .intro {
+    font-size: 1.06rem;
+    margin-bottom: 0.9rem;
+  }
+  .intro + .intro { margin-bottom: 0; }
+
+  section { margin-top: 3.2rem; }
+  h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--mid);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .row .what { font-weight: 600; }
+  .row .what small {
+    display: block;
+    font-weight: 400;
+    color: var(--mid);
+    font-size: 0.88rem;
+  }
+  .row .when {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.78rem;
+    color: var(--mid);
+    white-space: nowrap;
+  }
+
+  .case p { padding: 0.9rem 0 0.2rem; }
+  .cost {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.95rem;
+    padding: 0.9rem 0 0.4rem;
+  }
+  .cost s { color: var(--mid); }
+  .cost b { font-weight: 500; }
+
+  a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--mid); }
+  a:hover, a:focus-visible { text-decoration-color: var(--ink); }
+  a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+  .contact { display: flex; flex-wrap: wrap; gap: 0.4rem 1.6rem; padding-top: 0.9rem; }
+  .contact a { font-family: "IBM Plex Mono", monospace; font-size: 0.85rem; }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.7rem;
+    color: var(--mid);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    html { font-size: 16px; }
+    main { padding-top: 3.5rem; }
+    .row { flex-direction: column; gap: 0.1rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Morganfield, Kentucky</p>
+  <h1>Mehmet (Leo) Celik</h1>
+  <p class="goby">I go by Leo.</p>
+
+  <p class="intro">I'm completing the Computer Service Technician program at Earle C. Clements Job Corps Center — CompTIA A+ in progress, Network+ and Security+ next.</p>
+  <p class="intro">I use AI to break complex material down to first principles: for my own study, for the weekly peer lectures I lead in my classroom, and for a pro se petition I filed in federal court.</p>
+
+  <section class="case">
+    <h2>Selected work</h2>
+    <p>Researched, drafted, and e-filed a pro se petition for writ of mandamus in U.S. District Court, using AI-assisted legal research — navigating federal procedure, in forma pauperis filing, and e-filing requirements independently.</p>
+    <p class="cost"><s>$5,000 quoted by attorneys</s> &nbsp;&rarr;&nbsp; <b>under $100, filed</b></p>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="row">
+      <div class="what">IC3 Digital Literacy Master Certification
+        <small>Certiport / Pearson VUE · ID wYFCU-2Fay</small>
+      </div>
+      <div class="when">May 2026</div>
+    </div>
+    <div class="row">
+      <div class="what">Microsoft Office Specialist: PowerPoint Associate
+        <small>Microsoft / Certiport · ID nqqR-uTLs</small>
+      </div>
+      <div class="when">May 2026</div>
+    </div>
+    <div class="row">
+      <div class="what">CompTIA A+
+        <small>In progress · Network+ and Security+ planned</small>
+      </div>
+      <div class="when">2026</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="row">
+      <div class="what">Earle C. Clements Job Corps Center
+        <small>Computer Service Technician program · Morganfield, KY</small>
+      </div>
+      <div class="when">2026 —</div>
+    </div>
+    <div class="row">
+      <div class="what">Gedik University
+        <small>Biomedical Device Technology · first year, 64 ECTS · Istanbul</small>
+      </div>
+      <div class="when">2024 – 25</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:leo@leocelik.com">leo@leocelik.com</a>
+      <a href="https://www.linkedin.com/in/leocelik">linkedin.com/in/leocelik</a>
+      <a href="Leo_Celik_CV.pdf">CV (PDF)</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>leocelik.com</span>
+    <span>Built by hand, one file.</span>
+  </footer>
+</main>
+</body>
+</html>
